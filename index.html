@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Me</title>
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #fa0000;
+    }
+
+    .active {
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+<style>
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url("sunset.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; 
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6); 
+  z-index: -1;
+  pointer-events: none;
+}
+</style>
+</style>
+
+<nav>
+  <ul>
+    <li><a class="active" href="about.html">About Me</a></li>
+    <li><a href="activities.html">My Activities</a></li>
+    <li><a href="education.html">My Education</a></li>
+    <li><a href="qualification.html">My Qualification</a></li>
+    <li><a href="interest.html">My Interest</a></li>
+  </ul>
+</nav>
+
+<!-- Profile Section -->
+<div style="text-align: center; padding: 45px 20px; color: #f5f5f5; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <img src="profile.png" alt="Profile Picture" 
+         style="border-radius: 50%; width: 145px; height: 187px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+    
+    <h1 style="margin-top: 15px; font-size: 2em; color: #fffefc; font-family: 'Times New Roman', Times, serif;">ABOUT ME</h1>
+    
+    <p style="max-width: 600px; margin: auto; line-height: 1.4; font-size: 1.5em; font-family:Georgia, 'Times New Roman', Times, serif;font-weight: bolder;">
+        Assalamualaikum warahmatullahi wabarakatuh, My name is Muhammad Syahmi Hafis bin Mat Rodzi, student ID E20241034026, 
+        from the Faculty of Computing and Meta Technology at UPSI. I was born on October 1st, 2003, 
+        and I am 22 years old. I am a legal permanent resident with all the necessary documentation 
+        and have been living in Ipoh, Perak for almost 22 years since birth. If you're interested, 
+        I can guide you to almost every café and popular hangout spot around the state of Perak.
+    </p>
+</div>
+
+
+
+</body>
+</html>
